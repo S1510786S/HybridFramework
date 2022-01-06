@@ -1,0 +1,16 @@
+com\mcd\qa\pages\PagePaySelection.class
+com\mcd\qa\base\TestBase.class
+com\mcd\qa\pages\PageReviewAndConfirmOrder.class
+com\mcd\qa\pages\PageHome.class
+com\mcd\qa\address\PageAddressUAE.class
+com\mcd\qa\pages\PageZPG.class
+com\mcd\qa\pages\PageMenu.class
+com\mcd\qa\pages\PageLogin.class
+com\mcd\qa\address\PageAddressKW.class
+com\mcd\qa\pages\PageOrderConfirmation.class
+com\mcd\qa\address\PageAddressBH.class
+com\mcd\qa\address\PageAddressQA.class
+com\mcd\qa\pages\PageZPGMPGS.class
+com\mcd\qa\address\PageAddressJO.class
+com\mcd\qa\util\ListenerClass1.class
+com\mcd\qa\util\TestUtil.class

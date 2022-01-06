@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mcd.qa.util.ListenerClass1"/>
+  </listeners>
+  <test thread-count="5" name="TCLKImmediate(failed)">
+    <classes>
+      <class name="com.mcd.qa.KWTestCases.TCKWImmediate">
+        <methods>
+          <include name="teardown"/>
+          <include name="KWTCImmediateOrder"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mcd.qa.KWTestCases.TCKWImmediate -->
+      <class name="com.mcd.qa.JOTestCases.TCJOImmediate">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="JOTCImmediateOrder"/>
+        </methods>
+      </class> <!-- com.mcd.qa.JOTestCases.TCJOImmediate -->
+      <class name="com.mcd.qa.LKTestCases.TCLKImmediate">
+        <methods>
+          <include name="teardown"/>
+          <include name="LKTCImmediateOrder"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mcd.qa.LKTestCases.TCLKImmediate -->
+      <class name="com.mcd.qa.QATestCases.TCQAImmediate">
+        <methods>
+          <include name="QATCImmediateOrder"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mcd.qa.QATestCases.TCQAImmediate -->
+      <class name="com.mcd.qa.BHTestCases.TCBHImmediate">
+        <methods>
+          <include name="BHTCImmediateOrder"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.mcd.qa.BHTestCases.TCBHImmediate -->
+    </classes>
+  </test> <!-- TCLKImmediate(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

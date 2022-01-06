@@ -1,0 +1,141 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1">
+
+<!-- --> 
+<listeners>
+    <listener class-name = "com.mcd.qa.util.ListenerClass1" />
+</listeners> 
+
+<!-- For Parallel execution
+<test name="McdTestCases" >
+<classes>
+<class name="com.mcd.qa.testcases.TCLogin" />
+<class name="com.mcd.qa.testcases.TCImmediate" />
+<class name="com.mcd.qa.testcases.TCAdvance" />
+</classes>
+</test>
+
+</suite>-->
+
+<!-- For Sequential execution -->
+
+<!--
+<test name="TCJOImmediate" >
+<classes>
+<class name="com.mcd.qa.JOTestCases.TCJOImmediate" />
+</classes>
+</test>
+<test name="TCJOAdvance" >
+<classes>
+<class name="com.mcd.qa.JOTestCases.TCJOAdvance" />
+</classes>
+</test>
+<test name="TCJOGuestImmediate" >
+<classes>
+<class name="com.mcd.qa.JOTestCases.TCJOGuestImmediate" />
+</classes>
+</test>
+<test name="TCJOGuestAdvance" >
+<classes>
+<class name="com.mcd.qa.JOTestCases.TCJOGuestAdvance" />
+</classes>
+</test>
+
+
+
+<test name="TCBHImmediate" >
+<classes>
+<class name="com.mcd.qa.BHTestCases.TCBHImmediate" />
+</classes>
+</test>
+<test name="TCBHAdvance" >
+<classes>
+<class name="com.mcd.qa.BHTestCases.TCBHAdvance" />
+</classes>
+</test>
+<test name="TCBHGuestImmediate" >
+<classes>
+<class name="com.mcd.qa.BHTestCases.TCBHGuestImmediate" />
+</classes>
+</test>
+<test name="TCBHGuestAdvance" >
+<classes>
+<class name="com.mcd.qa.BHTestCases.TCBHGuestAdvance" />
+</classes>
+</test>
+
+
+<test name="TCKWImmediate" >
+<classes>
+<class name="com.mcd.qa.KWTestCases.TCKWImmediate" />
+</classes>
+</test>
+<test name="TCKWAdvance" >
+<classes>
+<class name="com.mcd.qa.KWTestCases.TCKWAdvance" />
+</classes>
+</test>
+<test name="TCKWGuestImmediate" >
+<classes>
+<class name="com.mcd.qa.KWTestCases.TCKWGuestImmediate" />
+</classes>
+</test>
+<test name="TCKWGuestAdvance" >
+<classes>
+<class name="com.mcd.qa.KWTestCases.TCKWGuestAdvance" />
+</classes>
+</test>
+
+ 
+<test name="TCQAImmediate" >
+<classes>
+<class name="com.mcd.qa.QATestCases.TCQAImmediate" />
+</classes>
+</test>
+<test name="TCQAAdvance" >
+<classes>
+<class name="com.mcd.qa.QATestCases.TCQAAdvance" />
+</classes>
+</test>
+<test name="TCQAGuestImmediate" >
+<classes>
+<class name="com.mcd.qa.QATestCases.TCQAGuestImmediate" />
+</classes>
+</test>
+<test name="TCQAGuestAdvance" >
+<classes>
+<class name="com.mcd.qa.QATestCases.TCQAGuestAdvance" />
+</classes>
+</test>
+
+<test name="TCUAEImmediate" >
+<classes>
+<class name="com.mcd.qa.UAETestCases.TCUAEImmediate" />
+</classes>
+</test>
+<test name="TCUAEAdvance" >
+<classes>
+<class name="com.mcd.qa.UAETestCases.TCUAEAdvance" />
+</classes>
+</test>
+<test name="TCUAEGuestImmediate" >
+<classes>
+<class name="com.mcd.qa.UAETestCases.TCUAEGuestImmediate" />
+</classes>
+</test>
+<test name="TCUAEGuestAdvance" >
+<classes>
+<class name="com.mcd.qa.UAETestCases.TCUAEGuestAdvance" />
+</classes>
+</test>
+--> 
+
+<test name="TCLKImmediate" >
+<classes>
+<class name="com.mcd.qa.LKTestCases.TCLKImmediate" />
+
+</classes>
+</test>
+
+</suite>

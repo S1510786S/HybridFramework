@@ -1,0 +1,35 @@
+Handling Pending
+================================
+Suggestive cell - No Thanks
+
+
+
+#Submit on PG - Authentication Page
+if(driver.findElement(By.xpath("//input[@type='submit']")).isDisplayed())
+{
+driver.findElement(By.xpath("//input[@type='submit']")).click();
+logger.info("PG - Submit clicked");
+}
+
+#Re-Order Confirmation pop up
+================================
+public static void reorderconfirmation()
+{
+try
+ {
+driver.findElement(By.xpath("//*[contains(text(),'Order Again')]")).click();
+  System.out.println("Re-Order Confirmation pop up present");  
+ }
+ catch(Exception e)
+ {}
+}
+
+
+public void ConfirmOrder()
+{
+WebDriverWait wait = new WebDriverWait(driver, 60);
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Confirm Order']")));
+
+driver.findElement(btnConfirmOrder).click();
+logger.info("PageReviewAndConfirmOrder - Click Confirm Order button");
+}
