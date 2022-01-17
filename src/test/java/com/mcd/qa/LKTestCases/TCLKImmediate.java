@@ -47,14 +47,6 @@ public class TCLKImmediate extends TestBase{
 		loginpage.LoginMcD();
 		homepage.StartNewOrder();
 		
-<<<<<<< HEAD
-		//Commit done by Pooja
-=======
-		//Swapnil commit
-
-		// Pooja username commit11111111111111
-		
->>>>>>> 8d1d23aca1fc47fe676f4bdaa48ecb35f567ffc5
 	}
 	
 	@AfterMethod
